@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Site login</title> 
+<style>
+				h1 {color:#2fac0e;
+				font size:100%;
+				font family:Ariel;
+				text-align:center;
+				}
+				h5 {text-align:center;}
+				form{text-align:center;}
+				
+				button{padding:10px;
+				background:#2fac0e;
+				color:white;
+				border-radius:6px;
+				width:20vh;}
+			
+				input { text-align:center;
+				background-color:#b3eeee;
+				color:#eeeeee;
+				padding: 10px 10px
+				border-radius:5px
+			 }
+				
+</style>
+</head>
+<body>
+				<h1>Sign up for free</h1>
+				<div>
+				<form>
+          <input type="username" placeholder="Username" required>
+          <br>
+         </div>
+         <br>
+       
+       </form>
+       <div>
+       		   <form>
+        <input type="password"  placeholder="Password" required>  
+          <br>
+          <br>
+          <button type="submit" class="btn">Signup</button>
+            </form>
+       </div>
+        <h5>forgotten password?</h5>
+    
+</body>
+</html>
